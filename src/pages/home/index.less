@@ -1,0 +1,129 @@
+// 搜索框
+.search{
+    background-color: #ff2d4a;
+    width: 100%;
+    height: 100rpx;  
+    padding: 0 16rpx ;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
+      .content{ 
+          width: 100%;
+          height: 60rpx;
+          background-color: white;
+          position: relative;
+          margin-top: 20rpx;
+          display: flex;
+          justify-content: center;
+    
+        .input1{  
+            width: 100%;
+            height: 100%;
+         }
+        .sousuo{
+            display: flex;
+            align-content: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+         
+            icon{
+                margin-top: 4rpx;
+            }
+            #ss{
+                font-size: 15px;
+                color: #cecece;
+            }
+        }
+        }
+       
+        
+    
+}
+
+// 轮播图
+swiper{
+    margin-top: 100rpx;
+    width: 100%;
+    height: 340rpx;
+    swiper-item{
+        image{
+            width: 100%;
+            height: 340rpx;
+        } 
+    }  
+}
+
+// nav中间导航
+.nav{
+    width: 100%;
+    height: 193rpx;
+    padding-left: 46rpx;
+   
+    .item{
+        margin-top: 30rpx;
+        width: 25%;
+        display: inline-block;
+       
+        .img{
+            width: 100rpx;
+            height: 100rpx;
+            
+        }
+      .text{
+           display: block;
+        }
+    }
+}
+
+// 楼层
+.floor{
+    width: 100%;
+    height: 500rpx;
+
+    .head{
+        width: 100%;
+        height: 89rpx;
+        color: #ff2d4a;
+        position: relative;
+
+        .title{
+        position: absolute;
+        top: 27%;
+        left:80rpx;
+        transform: translate(-50%,0);
+        }
+        .img{
+            width: 100%;
+            height: 89rpx;
+            background-color: red;
+        }
+    }
+.fashion{
+    width: 100%;
+    margin: 20rpx 0;
+    
+
+    .img1{
+        float: left;
+        width: 233rpx;
+        height: 182rpx;
+        margin-right: 10rpx;
+        margin-bottom: 10rpx;
+
+        &:first-child{
+            width: 231rpx;
+            height: 374rpx;
+            margin-left: 16rpx;
+            margin-bottom: 10rpx;
+        }
+
+    }
+}
+} 
+   

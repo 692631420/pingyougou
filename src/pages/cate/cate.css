@@ -1,0 +1,125 @@
+.search {
+  background-color: #ff2d4a;
+  width: 100%;
+  height: 100rpx;
+  padding: 0 16rpx ;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.search .content {
+  width: 100%;
+  height: 60rpx;
+  background-color: white;
+  position: relative;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+.search .content .input1 {
+  width: 100%;
+  height: 100%;
+}
+.search .content .sousuo {
+  display: flex;
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search .content .sousuo icon {
+  margin-top: 4rpx;
+}
+.search .content .sousuo #ss {
+  font-size: 15px;
+  color: #cecece;
+}
+.cate {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 100rpx;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.cate .left {
+  width: 198rpx;
+  height: 100%;
+  background-color: yellowgreen;
+  overflow: auto;
+}
+.cate .left .item {
+  width: 198rpx;
+  height: 100rpx;
+  background-color: #f4f4f4;
+  line-height: 100rpx;
+  text-align: center;
+}
+.cate .left .item.active {
+  width: 198rpx;
+  height: 100rpx;
+  position: relative;
+  color: #eb4450;
+  background-color: #fff;
+}
+.cate .left .item.active:before {
+  content: '';
+  display: block;
+  width: 8rpx;
+  height: 60rpx;
+  background-color: #eb4450;
+  position: absolute;
+  margin-top: 20rpx;
+}
+.cate .right {
+  flex: 1;
+  background-color: yellow;
+  overflow: auto;
+}
+.cate .right .head {
+  width: 100%;
+  height: 182rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.cate .right .head .img1 {
+  width: 100%;
+  height: 182rpx;
+}
+.cate .right .project {
+  width: 100%;
+}
+.cate .right .project .item {
+  width: 100%;
+  margin: 40rpx 0;
+  text-align: center;
+}
+.cate .right .project .item .title {
+  margin-bottom: 20rpx;
+}
+.cate .right .project .item .title .xiegan {
+  margin: 0 20rpx;
+}
+.cate .right .project .item .row {
+  width: 100%;
+  overflow: hidden;
+}
+.cate .right .project .item .row .tuwen {
+  width: 33.33%;
+  float: left;
+  margin-top: 20rpx;
+}
+.cate .right .project .item .row .tuwen .img2 {
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+}
+.cate .right .project .item .row .tuwen .name {
+  display: block;
+}

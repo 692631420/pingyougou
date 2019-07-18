@@ -1,42 +1,42 @@
 {
-  "pages": [
-    "pages/index/main",
-    "pages/logs/main"  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "color": "#999",
-    "backgroundColor": "#fafafa",
-    "selectedColor": "#333",
-    "borderStyle": "white",
-
-    "list": [{
-      "text": "首页",
-      "pagePath": "pages/index/main",
-      "iconPath": "static/tabs/home.png",
-      "selectedIconPath": "static/tabs/home-active.png"
-    }, {
-      "text": "订单",
-      "pagePath": "pages/logs/main",
-      "iconPath": "static/tabs/orders.png",
-      "selectedIconPath": "static/tabs/orders-active.png"
-    }],
-
-    "items": [{
-      "name": "首页",
-      "pagePath": "pages/index/main",
-      "icon": "static/tabs/home.png",
-      "activeIcon": "static/tabs/home-active.png"
-    }, {
-      "name": "订单",
-      "pagePath": "pages/logs/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/orders-active.png"
-    }],
-    "position": "bottom"
-  }
+    "pages": [
+        "pages/home/main",
+        "pages/cate/main",
+        "pages/car/main",
+        "pages/me/main",
+        "pages/searchList/main"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ff2d4a",
+        "navigationBarTitleText": "优购",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [{
+                "pagePath": "pages/home/main",
+                "text": "首页",
+                "iconPath": "static/images/icon_home@3x.png",
+                "selectedIconPath": "static/images/icon_home_active@3x.png"
+            },
+            {
+                "pagePath": "pages/cate/main",
+                "text": "分类",
+                "iconPath": "static/images/icon_category@3x.png",
+                "selectedIconPath": "static/images/icon_category_active@3x.png"
+            },
+            {
+                "pagePath": "pages/car/main",
+                "text": "购物车",
+                "iconPath": "static/images/icon_cart@3x.png",
+                "selectedIconPath": "static/images/icon_cart_active@3x.png"
+            },
+            {
+                "pagePath": "pages/me/main",
+                "text": "我的",
+                "iconPath": "static/images/icon_me@3x.png",
+                "selectedIconPath": "static/images/icon_me_active@3x.png"
+            }
+        ]
+    }
 }
