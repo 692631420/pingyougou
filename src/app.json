@@ -4,7 +4,9 @@
         "pages/cate/main",
         "pages/car/main",
         "pages/me/main",
-        "pages/searchList/main"
+        "pages/searchList/main",
+        "pages/detail/main"
+
     ],
     "window": {
         "backgroundTextStyle": "light",

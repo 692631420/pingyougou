@@ -41,7 +41,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
@@ -51,10 +51,17 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 1,
 					"name": "pages/searchList/main",
 					"pathName": "pages/searchList/main",
-					"query": "query=曲面电视",
+					"query": "query=小米",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/detail/main",
+					"pathName": "pages/detail/main",
+					"query": "id=516",
 					"scene": null
 				}
 			]

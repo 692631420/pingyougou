@@ -1,5 +1,5 @@
 .search {
-  background-color: #ff2d4a;
+  background-color: #eeeeee;
   width: 100%;
   height: 100rpx;
   padding: 0 16rpx ;
@@ -37,4 +37,60 @@
 .search .content .sousuo #ss {
   font-size: 15px;
   color: #cecece;
+}
+.box {
+  margin-top: 100rpx;
+}
+.box .head .content {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  line-height: 100rpx;
+  text-align: center;
+}
+.box .head .content .name {
+  height: 100%;
+  width: 33.33%;
+}
+.box .head .content .name.active {
+  color: red;
+}
+.box .neirong .item {
+  width: 100%;
+  height: 260rpx;
+  padding-left: 20rpx;
+  padding-top: 26rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.box .neirong .item .img1 {
+  display: inline-block;
+  width: 200rpx;
+  height: 200rpx;
+}
+.box .neirong .item .text {
+  float: right;
+}
+.box .neirong .item .text .projectdec {
+  width: 500rpx;
+  height: 80rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  padding-right: 36rpx;
+  box-sizing: border-box;
+}
+.box .neirong .item .text .price {
+  display: block;
+  margin-top: 40rpx;
+  color: #eb4450;
+  font-size: 16px;
+}
+.box .neirong .item .text .price .six {
+  font-size: 28px;
 }
